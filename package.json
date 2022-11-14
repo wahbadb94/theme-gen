@@ -6,8 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --config jestconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
